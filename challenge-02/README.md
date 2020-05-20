@@ -34,6 +34,7 @@ addvalor();
 // Qual o retorno da função? (Use comentários de bloco).
 /*'O valor da variável agora é 20'*/
 
+/*
 Crie uma função com as seguintes características:
 1. A função deve receber 3 argumentos;
 2. Se qualquer um dos três argumentos não estiverem preenchidos, a função deve retornar a string:
