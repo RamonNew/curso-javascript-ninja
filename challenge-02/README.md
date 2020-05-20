@@ -4,41 +4,52 @@ Nesse exercício, você está livre para escolher os nomes para suas variáveis 
 
 ```js
 // Crie uma função que receba dois argumentos e retorne a soma dos mesmos.
-?
+function somadois(x,y){
+  return x+y;
+}
 
 // Declare uma variável que receba a invocação da função criada acima, passando dois números quaisquer por argumento, e somando `5` ao resultado retornado da função.
-?
+var resultado = somadois(5,10)+5;
 
 // Qual o valor atualizado dessa variável?
-?
+20
 
 // Declare uma nova variável, sem valor.
-?
+var semvalor;
 
 /*
 Crie uma função que adicione um valor à variável criada acima, e retorne a string:
     O valor da variável agora é VALOR.
 Onde VALOR é o novo valor da variável.
 */
-?
+
+function addvalor(){
+  semvalor = 20;
+  return "O valor da variável agora é " + semvalor;
+}
 
 // Invoque a função criada acima.
-?
+addvalor();
 
 // Qual o retorno da função? (Use comentários de bloco).
-?
+/*'O valor da variável agora é 20'*/
 
-/*
 Crie uma função com as seguintes características:
 1. A função deve receber 3 argumentos;
 2. Se qualquer um dos três argumentos não estiverem preenchidos, a função deve retornar a string:
     Preencha todos os valores corretamente!
 3. O retorno da função deve ser a multiplicação dos 3 argumentos, somando `2` ao resultado da multiplicação.
 */
-?
+function novafuncao(x,y,z){
+  if (x ===null || y===null || z===null){
+    return "Preencha todos os valores corretamente!"
+  } else{
+    return x*y*z+2;
+  }
+}
 
 // Invoque a função criada acima, passando só dois números como argumento.
-?
+NaN
 
 // Qual o resultado da invocação acima? (Use comentários para mostrar o valor retornado).
 ?
